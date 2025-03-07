@@ -4,6 +4,7 @@ How to run
 1. Pull all the code from git
 2. Run the following command to start the containers（PostgreSQL, backend service, and Nginx.）:
    ```sh
+   docker network create app_network
    docker-compose up -d
 
    
